@@ -7,7 +7,7 @@ const Navbar = () => {
     <>  
     <div className='navContainer'>
         <div className='leftSide'>
-            <h3>Pizzería Mamma Mia!</h3>
+            <h3 className='HeaderTitle'>Pizzería Mamma Mia!</h3>
             <ul className='menuList'>
                 <li id='home'><button>🍕 Home</button></li>
                 <li id='profile' className={token ? 'showElement' : 'hideElement'}><button>🔓 Profile</button></li>

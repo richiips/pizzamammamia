@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -90,6 +88,7 @@ button:focus-visible {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  background-color: black;
 }
 
 .leftSide{
@@ -105,6 +104,7 @@ button:focus-visible {
   flex-flow: row wrap;
   align-items: center;
   justify-content: flex-start;
+  gap: 16px;
 }
 
 li{
@@ -119,14 +119,40 @@ li{
   display: none;
 }
 
+.HeaderTitle{
+  color: white;
+}
+
+/*Header*/
+.headerContainer{
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+}
+
+.titleHeader{
+  color: white;
+}
 
 /*Pizzas*/
+.containerBody{
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
 .cardPizzaContainer{
   width: 100%;
   max-width: 1024px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 24px;
+  padding: 64px 0;
 }
 
 .cardPizza{
@@ -137,4 +163,26 @@ li{
 
 .imagePizza{
   width: 100%;
+}
+
+.pizzaInformationContainer{
+  padding: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+
+/*Footer*/
+.footerContainer{
+  width: 100%;
+  background-color: black;
+  padding: 24px;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }

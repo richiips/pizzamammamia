@@ -5,7 +5,7 @@ import CardPizza from './CardPizza'
 const Home = () => {
   return (
     <>
-    <div>
+    <div className='containerBody'>
       <Header></Header>
       
       <div className='cardPizzaContainer'>
