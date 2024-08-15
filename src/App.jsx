@@ -3,6 +3,8 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Footer from './components/Footer'
+import Registro from './components/Registro'
+import Login from './components/Login'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +13,9 @@ function App() {
     <>
     <div className='mainContainer'>
         <Navbar></Navbar>
-        <Home></Home>
+       {/*<Home></Home>*/}
+       {/*<Registro></Registro>*/}
+       <Login></Login>
         <Footer></Footer>
       </div>
     </>
