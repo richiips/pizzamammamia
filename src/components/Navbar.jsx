@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
-    const total = 25000;
+const Navbar = ({ total }) => {
     const token = false;
   return (
     <>  
